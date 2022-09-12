@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+main {
+    display: flex;
+}
+
+.left-content {
+    background-image: url("./images/alessandro-bianchi-kdTyfnUFAc-unsplash.jpg");
+    width: 33vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-content {
+    height: 100vh;
+}
+
+.intro {
+    background-color: rgb(227, 225, 225);
+    padding: 10vw;
+}
+
+p {
+    padding: 15px;
+}
