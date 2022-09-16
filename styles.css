@@ -15,19 +15,20 @@ main {
     background-position: center;
 }
 
-.right-content {
-    height: 100vh;
-}
-
 .intro {
     background-color: rgb(227, 225, 225);
     padding-top: 100px;
     padding-left: 25px;
     padding-bottom: 35px;
+    width: 66vw;
 }
+
 
 p {
     padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 600px;
 }
 
 @font-face {
@@ -58,4 +59,40 @@ p {
 #hero-text {
     font-family: 'Norse-Bold', Fallback, sans-serif;
     font-size: 68px;
+}
+
+fieldset {
+    border: none;
+    padding-left: 40px;
+}
+
+form {
+    display: flex;
+    width: 600px;
+}
+
+label, input {
+    display: block;
+    font-size: 0.8em;
+    width: 250px;
+    color: #E5E7EB
+    border-radius: 5px;
+    appearance: auto;
+}
+
+input {
+    margin-bottom: 15px;
+
+}
+
+legend {
+    padding-left: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.last {
+    background-color: rgb(227, 225, 225);
 }
