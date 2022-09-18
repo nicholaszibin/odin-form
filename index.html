@@ -25,35 +25,35 @@
             <form action="http://httpbin.org/post" method="post">
                 <fieldset class="col1">
 
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="fname" required>
 
                     
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
 
                     
 
                     <label for="user_password">PASSWORD</label>
-                    <input type="password" id="user_password" name="password">
+                    <input type="password" id="user_password" name="password" required>
 
                     
                 </fieldset>
                 <fieldset class="col2">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="lname" required>
 
                     <label for="phone_number">PHONE NUMBER</label>
-                    <input type="tel" id="phone_number" name="phone_number">
+                    <input type="tel" id="phone_number" name="phone_number" required>
 
                     <label for="confirm_password">PASSWORD</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
+                    <input type="password" id="confirm_password" name="confirm_password" required>
 
                 </fieldset>
             </form>
             <div class="last">
                 <button type="submit">Create Account</button>
-                
+            <p id="account">Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </main>

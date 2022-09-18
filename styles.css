@@ -71,18 +71,26 @@ form {
     width: 600px;
 }
 
+label {
+    color:grey;
+}
+
 label, input {
     display: block;
     font-size: 0.8em;
     width: 250px;
-    color: #E5E7EB
-    border-radius: 5px;
-    appearance: auto;
+
 }
 
 input {
     margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+}
 
+input:focus {
+    outline: none;
+    border: 2px solid #5c8df0;
 }
 
 legend {
@@ -93,6 +101,38 @@ legend {
     padding-bottom: 15px;
 }
 
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .last {
     background-color: rgb(227, 225, 225);
+    height: 50vh;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #84a368;
+}
+
+button:active {
+    transform: scale(1.05,1.05);
+}
+
+#account {
+    margin-left: 25px;
+    font-size: 0.8em;
 }
